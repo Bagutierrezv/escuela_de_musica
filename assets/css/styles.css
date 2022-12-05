@@ -5,9 +5,6 @@ body{
     color: white;
     font-family: 'Nerko One', cursive;
 }
-.imagenes_carousel{
-height: 100%
-}
 .carousel {
     aspect-ratio: 5/3;
 }
@@ -16,4 +13,16 @@ height: 100%
 }
 .coral-letra{
     color: coral;
+}
+.card-img-top{
+    aspect-ratio: 5/3;
+}
+.nav-gris{
+    background-color: gray;
+    opacity: 0.9;
+    color: white;
+}
+.card-text{
+    max-height: 100px;
+    min-height: 100px;
 }
