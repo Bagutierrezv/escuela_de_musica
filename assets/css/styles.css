@@ -5,6 +5,9 @@ body{
     color: white;
     font-family: 'Nerko One', cursive;
 }
-.imagenes_carrousel{
+.imagenes_carousel{
     height: 500px;
+}
+.carousel {
+    aspect-ratio: 5/3;
 }
