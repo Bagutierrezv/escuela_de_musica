@@ -17,15 +17,21 @@ body{
 .card-img-top{
     aspect-ratio: 5/3;
 }
+/*.card-text{
+    aspect-ratio: 5;
+}*/
+.card{
+    aspect-ratio: 5/4;
+}
 .nav-gris{
     background-color: gray;
     opacity: 0.9;
     color: white;
 }
-.card-text{
-    max-height: 100px;
+/*.card-text{
+    max-height: 50px;
     min-height: 100px;
-}
+}*/
 .wrap{
     display: flex;
     justify-content: space-around;
@@ -33,4 +39,19 @@ body{
 }
 .blanco{
     color: white;
+}
+/*.altura {
+    min-height: 100px;
+    max-height: 50px;
+}*/
+@media screen and (min-width:990px) {
+    .card-text{
+    max-height: 100px;
+    min-height: 110px;
+    }
+}
+@media screen and (min-width:1200px) {
+    .card-text{
+    min-height: 100px;
+    }
 }
